@@ -87,6 +87,7 @@ html {
 }
 
 body {
+  direction: rtl;
   position: relative;
   font-family: IRANSans, Helvetica, sans-serif;
   color: #424242;
@@ -107,10 +108,12 @@ body {
 }
 
 body.ajax-page-visible {
+  direction: rtl;
   overflow: hidden;
 }
 
 a {
+  direction: rtl;
   color: #7e6df6;
   text-decoration: none;
   outline: none;
@@ -132,6 +135,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  direction: rtl;
   color: #212121;
   font-family: IRANSans, Helvetica, sans-serif;
   font-weight: 600;
@@ -166,6 +170,7 @@ img {
 }
 
 .mobile-visible {
+  direction: rtl;
   display: none;
   visibility: hidden;
 }
@@ -189,6 +194,7 @@ img {
 .form-control:focus,
 .has-error .form-control,
 .has-error .form-control:focus {
+  direction: rtl;
   position: relative;
   border: 0;
   border-bottom: 1px solid #e0e0e0;
@@ -199,7 +205,7 @@ img {
   padding: 10px 0 10px 0;
   width: 100%;
   background: transparent;
-  text-align: left;
+  text-align: right;
   color: inherit;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -213,6 +219,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-control + .form-control-border {
+  direction: rtl;
   content: "";
   position: absolute;
   z-index: -1;
@@ -981,7 +988,8 @@ body > footer .copyrights {
 
 .info-list li {
   margin: 6px 0;
-  text-align: left;
+  text-align: right;
+  direction: rtl;
 }
 
 .info-list li .title {
@@ -2590,4 +2598,8 @@ blockquote footer, blockquote small, blockquote .small {
   .home-page-description {
     font-size: 16px;
   }
+}
+
+.eng-word{
+  direction: ltr;
 }
