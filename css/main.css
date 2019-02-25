@@ -42,6 +42,40 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i|Montserrat:300,400,500,600,700");
 
 
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/IRANSansWeb_Bold.woff') format('woff');   /* All Major Browsers */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/IRANSansWeb_Medium.woff') format('woff');   /* All Major Browsers */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/IRANSansWeb_Light.woff') format('woff');   /* All Major Browsers */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src:url('../fonts/IRANSansWeb_UltraLight.woff') format('woff');   /* All Major Browsers */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/IRANSansWeb.woff') format('woff');   /* All Major Browsers */
+}
+
+
+
 /* =============================================================================
 2. General styles
 ============================================================================= */
@@ -54,7 +88,7 @@ html {
 
 body {
   position: relative;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: IRANSans, Helvetica, sans-serif;
   color: #424242;
   margin: 0;
   height: 100%;
@@ -99,7 +133,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   color: #212121;
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: IRANSans, Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.5em;
   margin-top: 0;
@@ -171,7 +205,7 @@ img {
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: IRANSans, Helvetica, sans-serif;
 }
 
 textarea.form-control, textarea.form-control:focus {
@@ -638,7 +672,7 @@ body > footer .copyrights {
   color: #49515d;
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: IRANSans, Helvetica, sans-serif;
   line-height: 1;
   margin: 38px 0 0;
 }
@@ -1278,7 +1312,7 @@ body > footer .copyrights {
 .testimonial-author {
   display: inline-block;
   font-size: 15px;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: IRANSans, Helvetica, sans-serif;
   color: #212121;
   margin: 0;
   font-weight: 400;
@@ -1648,7 +1682,7 @@ body > footer .copyrights {
   background: #4f565e;
   background: rgba(79,86,94,0.6);
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: IRANSans;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1834,7 +1868,7 @@ body > footer .copyrights {
   margin: 2px;
   width: 22px;
   height: 22px;
-  font-family: FontAwesome;
+  font-family: IRANSans;
   font-size: 21px;
   line-height: 22px;
   text-align: center;
@@ -1881,7 +1915,7 @@ body > footer .copyrights {
 
 .portfolio-page-carousel .owl-nav [class*='owl-']:before {
   display: block;
-  font-family: FontAwesome;
+  font-family: IRANSans;
   font-size: 30px;
   line-height: 30px;
 }
@@ -2343,7 +2377,7 @@ blockquote footer, blockquote small, blockquote .small {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: IRANSans, Helvetica, sans-serif;
     margin: 0;
     line-height: 50px;
   }
