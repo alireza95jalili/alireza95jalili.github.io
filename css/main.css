@@ -2309,6 +2309,32 @@ blockquote footer, blockquote small, blockquote .small {
 }
 
 @media only screen and (max-width: 991px) {
+
+  /*//////////////////////////////////////////
+   Custom Css
+  /////////////////////////////////////////*/
+.site-nav {
+  width: 100%;
+}
+.site-main-menu {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+
+}
+.site-main-menu li:first-child {
+  margin-top: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+  /* ////////////////////////////////////// */
   .mobile-visible {
     display: block;
     visibility: visible;
@@ -2601,4 +2627,13 @@ blockquote footer, blockquote small, blockquote .small {
 
 .eng-word{
   direction: ltr;
+}
+
+
+/* ////////////////////////////////////////////////
+Custom Edit
+//////////////////////////////////////////////// */
+.custom_row {
+  display: flex;
+  justify-content: center;
 }
