@@ -1142,15 +1142,15 @@ body > footer .copyrights {
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 85%;
+  width: 90%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 95%;
+  width: 97%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 70%;
+  width: 94%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
@@ -1160,9 +1160,7 @@ body > footer .copyrights {
 .skill-percentage.skill-8 {
   width: 80%;
 }
-.skill-percentage.skill-9 {
-  width: 25%;
-}
+
 /* Skills */
 
 .download-resume {
