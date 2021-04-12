@@ -1154,7 +1154,7 @@ body > footer .copyrights {
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 94%;
+  width: 70%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
@@ -1175,6 +1175,18 @@ body > footer .copyrights {
 /*Skill 8*/
 .skill-percentage.skill-11 {
   width: 100%;
+}
+
+.skill-percentage.skill-12 {
+  width: 70%;
+}
+
+.skill-percentage.skill-13 {
+  width: 90%;
+}
+
+.skill-percentage.skill-14 {
+  width: 60%;
 }
 
 /* Skills */
